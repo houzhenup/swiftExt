@@ -14,7 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.init(r: 10, g: 10, b: 100)
         self.view.backgroundColor = UIColor.init(hex: "ecccch");
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
