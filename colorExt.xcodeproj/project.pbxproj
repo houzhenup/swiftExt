@@ -13,6 +13,8 @@
 		21B0B51B1E56FB0D00753662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B0B51A1E56FB0D00753662 /* Assets.xcassets */; };
 		21B0B51E1E56FB0D00753662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B0B51C1E56FB0D00753662 /* LaunchScreen.storyboard */; };
 		21B0B5261E56FB1E00753662 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B0B5251E56FB1E00753662 /* UIColor-Extension.swift */; };
+		21B0B5291E57543100753662 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B0B5271E57543100753662 /* TableViewCell.swift */; };
+		21B0B52A1E57543100753662 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21B0B5281E57543100753662 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		21B0B51D1E56FB0D00753662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21B0B51F1E56FB0D00753662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21B0B5251E56FB1E00753662 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		21B0B5271E57543100753662 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		21B0B5281E57543100753662 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				21B0B51A1E56FB0D00753662 /* Assets.xcassets */,
 				21B0B51C1E56FB0D00753662 /* LaunchScreen.storyboard */,
 				21B0B51F1E56FB0D00753662 /* Info.plist */,
+				21B0B5271E57543100753662 /* TableViewCell.swift */,
+				21B0B5281E57543100753662 /* TableViewCell.xib */,
 			);
 			path = colorExt;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21B0B51E1E56FB0D00753662 /* LaunchScreen.storyboard in Resources */,
+				21B0B52A1E57543100753662 /* TableViewCell.xib in Resources */,
 				21B0B51B1E56FB0D00753662 /* Assets.xcassets in Resources */,
 				21B0B5191E56FB0D00753662 /* Main.storyboard in Resources */,
 			);
@@ -141,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21B0B5161E56FB0D00753662 /* ViewController.swift in Sources */,
+				21B0B5291E57543100753662 /* TableViewCell.swift in Sources */,
 				21B0B5261E56FB1E00753662 /* UIColor-Extension.swift in Sources */,
 				21B0B5141E56FB0D00753662 /* AppDelegate.swift in Sources */,
 			);
